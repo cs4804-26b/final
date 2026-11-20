@@ -1,8 +1,6 @@
 Final Project - Interactive Data Visualization  
 ===
 
-* Edit 04-Feb-2025 -> adding link to a Notion doc of ideas (totally optional, mainly ideas collected from recent convos w/ people) -> https://scented-flock-323.notion.site/Project-Ideas-18fcf1e51ce380f79f92d4faf3ae7b4a?pvs=4
-
 The key learning experience of this course is the final project. 
 You will design a web site and interactive visualizations that answer questions you have, provide an exploratory interface to some topic of your own choosing, or take on a more ambitious experiment than A3. 
 You will acquire the data, design your visualizations, implement them, and critically evaluate the results. 
@@ -11,12 +9,21 @@ The path to a good visualization is going to involve mistakes and wrong turns.
 It is therefore important to recognize that mistakes are valuable in finding the path to a solution, to broadly explore the design space, and to iterate designs to improve possible solutions. 
 To help you explore the design space, we will hold events such as feedback sessions in which you propose your idea and initial designs and receive feedback from the class and staff.
 
+Key Dates (B-term 2026)
+---
+
+- **Now:** submit project ideas (see below).
+- **Tue Dec 1:** A3 due. Shift your team's focus to the final project.
+- **Fri Dec 4 and Tue Dec 8:** in-class design and development work days.
+- **Fri Dec 11, 2:00 pm:** final project due. There is no live class that day. Post your screencast and GitHub link in the class team sheet (linked on Canvas), then watch and comment on your classmates' videos.
+
 Proposals / Idea Generation
 ---
 
 Submit project ideas using [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf2XmuFaKkR8k2aJ0ZjzVywih0R07dfO_NjVMcm8ZUwGrwoLg/viewform?usp=publish-editor).
 
 You're encouraged to submit many ideas-- staff will help you identify the most promising ones and possible roadblocks.
+For inspiration, there is also an (optional) [Notion page of project ideas](https://scented-flock-323.notion.site/Project-Ideas-18fcf1e51ce380f79f92d4faf3ae7b4a?pvs=4) collected from recent conversations.
 
 Please stick to 1-4 folks per team.
 
@@ -42,7 +49,7 @@ Your process book should include the following topics. Depending on your project
 - Evaluation: What did you learn about the data by using your visualizations? How did you answer your questions? How well does your visualization work, and how could you further improve it?
 
 As this will be your only chance to describe your project in detail make sure that your process book is a standalone document that fully describes your results and the final design. 
-[Here](http://dataviscourse.net/2015/assets/process_books/bansal_cao_hou.pdf) are a [few examples](http://dataviscourse.net/2015/assets/process_books/walsh_trevino_bett.pdf) of process books from a similar course final.
+[Here](https://www.dataviscourse.net/2015/assets/process_books/bansal_cao_hou.pdf) are a [few examples](https://www.dataviscourse.net/2015/assets/process_books/walsh_trevino_bett.pdf) of process books from a similar course final.
 
 Tip: Start your process book on Day 1. Make entries after each meeting, and trim / edit as needed towards the end of the project. Many folks use either slides software (like PowerPoint) or Google Docs to make this book, as both allow for flexible layouts and export to PDF.
 
@@ -60,10 +67,10 @@ If you are not able to publish your work (e.g., due to confidential data) please
 
 Each team will create a two minute screen-cast with narration showing a demo of your visualization and/or some slides. 
 
-You can use any screencast tool of your choice, such as Camtasia or Loom (new and recommended). 
+You can use any screencast tool of your choice, such as Loom (recommended), Zoom, or Camtasia. 
 Please make sure that the sound quality of your video is good -- it may be worthwhile to invest in an external USB microphone-- campus IT should have some you can borrow. 
 Upload the video to an online video-platform such as YouTube or Vimeo and embed it into your project web page. 
-For our final project presentation day, we will show as many videos in class as possible, and ask teams to field questions.
+The final day (Fri Dec 11) is an async video day: post your video and GitHub link in the class team sheet (linked on Canvas) by 2:00 pm, then watch your classmates' videos and leave comments and questions.
 
 We will strictly enforce the two minute time limit for the video, so please make sure you are not running longer. 
 Use principles of good storytelling and presentations to get your key points across. Focus the majority of your screencast on your main contributions rather than on technical details. 
@@ -87,7 +94,7 @@ If you use outside sources please provide a References section with links at the
 
 Resources
 ---
-The "[Data is Plural](https://tinyletter.com/data-is-plural/archive)" weekly letter often contains interesting datasets.
+The "[Data is Plural](https://www.data-is-plural.com/)" weekly newsletter (and its searchable archive) often contains interesting datasets.
 
 KAGGLE IS BANNED! You may propose to use a dataset from there if you really have a deep/cool idea, but please run it by me first.
 
@@ -99,18 +106,18 @@ Requirements
 Store the following in your GitHub repository:
 
 - Code - All web site files and libraries assuming they are not too big to include
-- Data - Include all the data that you used in your project. If the data is too large for github store it on a cloud storage provider, such as Dropbox or Yousendit.
+- Data - Include all the data that you used in your project. If the data is too large for github store it on a cloud storage provider, such as Google Drive, Dropbox, or Box, and link to it.
 - Process Book- Your Process Book in PDF format.
 - README - The README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must contain URLs to your project websites and screencast videos. The README must also explain any non-obvious features of your interface.
 
 GitHub Details
 ---
 
-- Fork the repo. You now have a copy associated with your username.
-- Make changes to index.html to fulfill the project requirements. 
-- Make sure your "main" branch matches your "gh-pages" branch. See the GitHub Guides referenced above if you need help.
-- Edit the README.md with a link to your gh-pages or other external site: for example http://YourUsernameGoesHere.github.io/DataVisFinal/index.html
-- To submit, make a [Pull Request](https://help.github.com/articles/using-pull-requests/) on the original repository.
+- [Fork the repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo). One teammate forks it; add the others as collaborators.
+- Add your site files (starting with an index.html) to fulfill the project requirements. 
+- Turn on GitHub Pages: in your fork, go to Settings → Pages, and under "Build and deployment" choose "Deploy from a branch" with the `main` branch. Your site will appear at https://YourUsernameGoesHere.github.io/final/ (it can take a minute or two after each push).
+- Edit the README.md with a link to your GitHub Pages or other external site, plus your screencast.
+- To submit, make a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) on the original repository.
 
 Grading
 ---
